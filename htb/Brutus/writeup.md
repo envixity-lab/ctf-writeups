@@ -47,8 +47,8 @@ These indicators suggested brute force activity and successful authentication ev
 To identify suspicious failed logins:
 
 ```bash
-grep "invalid" auth.log
-grep "Failed password" auth.log
+grep "invalid" auth.log | less
+grep "Failed password" auth.log | less
 ```
 
 This revealed repeated login failures from the same IP address, including attempts against invalid users and a test account.
