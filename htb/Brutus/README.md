@@ -19,7 +19,7 @@ The commands shown are primarily general Linux log-analysis techniques, such as 
 
 This write-up is intended to document what I learned while completing the challenge, not to provide a copy-and-paste answer sheet.
 
-If you're currently working through Brutus yourself, I strongly recommend attempting each question before reading further. 🔎
+If you're currently working through Brutus yourself, I strongly recommend attempting each question before reading further. 
 ## Objectives
 
 Investigate the provided `auth.log` and related artifacts to answer the following:
