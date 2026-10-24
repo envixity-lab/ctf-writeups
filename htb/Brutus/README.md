@@ -9,6 +9,17 @@ This challenge focused on investigating authentication logs to identify evidence
 **Difficulty:** Very Easy
 **Time Taken:** ~40 minutes
 
+## ⚠️ Spoiler & Write-Up Notice
+
+**Brutus is a beginner-level Sherlock challenge**, and this write-up is intended as a learning-focused overview of my investigation process rather than a complete solution guide.
+
+To avoid spoiling the lab for anyone who wants to solve it themselves, I have intentionally **not included every challenge answer or exact value**. Where appropriate, specific answers, IP addresses, timestamps, usernames, session IDs, and other solution-critical information may be omitted or blurred in screenshots.
+
+The commands shown are primarily general Linux log-analysis techniques, such as `grep` and `less`, and are included to demonstrate the investigative methodology I used.
+
+This write-up is intended to document what I learned while completing the challenge, not to provide a copy-and-paste answer sheet.
+
+If you're currently working through Brutus yourself, I strongly recommend attempting each question before reading further. 🔎
 ## Objectives
 
 Investigate the provided `auth.log` and related artifacts to answer the following:
